@@ -2,35 +2,37 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Student at <a href='#'>Your University</a>. Applying to PhD programs and SWE/ML roles.
+subtitle: M.S. Computer Science at <a href='https://www.usc.edu'>USC</a>. Machine learning, LLMs, and scientific ML.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Department of Your Field</p>
-    <p>Your University</p>
-    <p>you@example.com</p>
+    <p>University of Southern California</p>
+    <p>Los Angeles, CA</p>
+    <p>tetsnaga@usc.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 ---
 
-Hi — I'm **Your Name**, a master's student in [Your Field] at [Your University]. My work sits at the intersection of [area one] and [area two], and I'm especially interested in [specific problem you care about].
+Hi — I'm **Tetsuto**, an M.S. Computer Science student at the University of Southern California (expected May 2027). My interests sit at the intersection of **machine learning, large language models, and scientific computing** — I like building systems that translate messy real-world intent into structured, executable behavior, and I'm especially drawn to problems where ML meets the physical sciences.
 
-I'm currently applying to **PhD programs** starting Fall 2027, and I'm also open to **software engineering and ML engineering roles** — full-time or summer 2026 internships. If either of those sounds like a fit, I'd love to [talk](mailto:you@example.com).
+I'm currently applying to **PhD programs** starting Fall 2027, and I'm also open to **software engineering, ML, and research engineering roles** — full-time or summer 2026 internships. If any of that sounds like a fit, I'd love to [get in touch](mailto:tetsnaga@usc.edu).
 
-Before [University], I [brief background — undergrad, previous work, formative project]. Outside of research, I [one sentence of personality — a hobby, a thing you're learning, a cause you care about].
+Before starting my M.S., I completed a rather unusual undergraduate path at USC: a B.S. in Physics/Computer Science, a B.A. in Philosophy and Physics, and an M.S. in Mechanical Engineering — all finished in May 2024. That breadth shapes how I approach research: I'm most at home on problems that reward moving fluidly between formal reasoning, experimental design, and engineering execution.
 
-You can find my [CV here](/assets/pdf/cv.pdf), recent work on my [publications](/publications/) and [projects](/projects/) pages, and occasional writing on the [blog](/blog/).
+Most recently, I was a **Visiting Member of the Technical Staff at Tetsuwan Scientific** in San Francisco, where I prototyped LLM- and vision-based systems for lab automation. Before that, I helped run a machine learning workshop for PhD students and professionals at USC's *AI for Discovery in the Sciences* program, built a generative diffusion model from scratch for pedagogy, and worked on astrophysical orbit modeling at the University of Hawaii.
+
+You can find more on my [CV](/cv/), my [projects](/projects/), and occasional writing on the [blog](/blog/).

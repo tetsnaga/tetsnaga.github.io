@@ -3,17 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Your
+first_name: Tetsuto
 middle_name:
-last_name: Name
+last_name: Nagashima
 contact_note: >
   Email is the fastest way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal site of Your Name — M.S. student, PhD applicant, and aspiring SWE/ML engineer.
+  Personal site of Tetsuto Nagashima — M.S. Computer Science student at USC, working on machine learning, LLMs, and scientific ML.
 footer_text: >
-  &copy; Your Name. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme,
+  &copy; Tetsuto Nagashima. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and the <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme,
   hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: your-name, machine-learning, research, phd, software-engineering
+keywords: tetsuto-nagashima, machine-learning, llm, scientific-ml, usc, computer-science
 lang: en
 icon: 🎓
 

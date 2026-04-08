@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-03-15 09:00:00-0400
+date: 2025-03-03 09:00:00-0800
 inline: true
 related_posts: false
 ---
 
-Started working on [project name] with [advisor/collaborator] — more details soon.
+Joined **Tetsuwan Scientific** in San Francisco as a Visiting Member of the Technical Staff, working on LLM- and vision-based lab automation.
