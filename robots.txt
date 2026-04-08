@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tetsnaga.github.io/sitemap.xml
