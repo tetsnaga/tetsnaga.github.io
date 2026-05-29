@@ -400,12 +400,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-graduated-from-usc-with-a-b-s-in-physics-computer-science-a-b-a-in-philosophy-and-physics-and-an-m-s-in-mechanical-engineering-mortar-board",
+      },{id: "news-graduated-from-usc-with-a-b-s-in-physics-computer-science-a-b-a-in-philosophy-and-physics-and-an-m-s-in-mechanical-engineering-mortar-board",
           title: 'Graduated from USC with a B.S. in Physics/Computer Science, a B.A. in Philosophy...',
           description: "",
           section: "News",},{id: "news-joined-tetsuwan-scientific-in-san-francisco-as-a-visiting-member-of-the-technical-staff-working-on-llm-and-vision-based-lab-automation",
