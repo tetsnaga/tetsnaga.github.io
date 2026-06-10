@@ -1,0 +1,85 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[letterpaper,margin=0.36in]{geometry}
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\newenvironment{tightitemize}{%
+  \begin{list}{$\bullet$}{%
+    \setlength{\leftmargin}{1.05em}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parsep}{0pt}
+    \setlength{\topsep}{1pt}
+    \setlength{\partopsep}{0pt}
+  }
+}{\end{list}}
+\newcommand{\ressection}[1]{\vspace{4pt}{\large\textbf{#1}}\par\vspace{1pt}\hrule\vspace{2pt}}
+
+\newcommand{\role}[4]{%
+  \textbf{#1} \hfill #2\\
+  \textit{#3} \hfill \textit{#4}\\[-1pt]
+}
+
+\newcommand{\project}[3]{%
+  \textbf{#1} \hfill #2\\
+  \textit{#3}\\[-1pt]
+}
+
+\begin{document}
+\fontsize{9.3}{10.2}\selectfont
+
+\begin{center}
+{\LARGE \textbf{Tetsuto Nagashima}}\\
+Los Angeles, CA | tetsnaga@usc.edu | (808) 729-8339 | github.com/tetsnaga | tetsnaga.github.io
+\end{center}
+
+\ressection{Education}
+\textbf{University of Southern California} \hfill Los Angeles, CA\\
+M.S. Computer Science, GPA 4.00 \hfill Expected 2027\\
+M.S. Mechanical Engineering; B.S. Physics/Computer Science; B.A. Philosophy and Physics \hfill 2019-2024\\
+\textit{Relevant coursework:} Trustworthy ML via Optimization, Probabilistic and Generative Models, Online Learning and Optimization
+
+\ressection{Research and Experience}
+\role{USC DILL Lab}{Los Angeles, CA}{Student Researcher, advised by Swabha Swayamdipta}{Dec 2025-Present}
+\begin{tightitemize}
+  \item Researching fine-grained evaluations for LLM reasoning, especially benchmark items that entangle multiple capabilities rather than isolating one skill.
+  \item Designing alternatives to tree-shaped capability taxonomies, including multi-capability annotations, axis-specific forests, typed graphs, and graded DAGs.
+  \item Comparing evaluation structures with weakness-identification metrics and exploring model-native signals such as embeddings or sparse features to reduce noisy labels.
+\end{tightitemize}
+
+\role{Tetsuwan Scientific}{San Francisco, CA}{Visiting Member of the Technical Staff}{Mar 2025-May 2025}
+\begin{tightitemize}
+  \item Prototyped LLM- and vision-based systems for lab automation, including agents for translating scientific intent and labware designs into executable or structured outputs.
+  \item Built a multimodal OCR/LLM pipeline that converted labware blueprints into structured JSON while preserving spatial relationships between features.
+  \item Created standardized computer-vision datasets for liquid-class calibration and trained a YOLO labware classifier, diagnosing overfitting to deck backgrounds and lighting through augmentation.
+\end{tightitemize}
+
+\role{USC Workshop on AI for Discovery in the Sciences}{Los Angeles, CA}{Undergraduate Research Assistant}{Jan 2024-May 2024}
+\begin{tightitemize}
+  \item Co-developed and taught hands-on ML tutorial notebooks for PhD students and industry professionals while still an undergraduate.
+  \item Built Colab modules on generative diffusion models, including a custom \texttt{UNet2DModel}, noise schedulers, and classifiers for detecting generated samples.
+  \item Created a nonlinear phase-transition detection module using Learning by Confusion, including a custom sunrise dataset from GoPro time-lapse data.
+\end{tightitemize}
+
+\role{University of Hawaii Outer Galaxy Group}{Honolulu, HI}{Undergraduate Research Fellow}{May 2021-Jul 2021}
+\begin{tightitemize}
+  \item Modeled Antlia 2's orbit using Gaia EDR3 data, developing a stellar selection criterion from isochrones and proper-motion measurements.
+  \item Applied MCMC sampling and numerical orbit integration to test whether Antlia 2 could explain observed perturbations in the Milky Way outer disc.
+\end{tightitemize}
+
+\ressection{Selected Projects}
+\project{PoisonPerf - github.com/tetsnaga/poison-perf}{Spring 2026}{Data poisoning attacks in performative prediction}
+\begin{tightitemize}
+  \item Implemented poisoning attacks against learners whose deployed models change future training distributions, comparing black-box, white-box, and oracle adversaries.
+  \item Structured the code around environments, attack threat models, and repeated performative retraining algorithms to support clean experimental comparisons.
+\end{tightitemize}
+
+\ressection{Skills}
+\textbf{ML/AI:} PyTorch, LLM evaluations, interpretability, diffusion models, computer vision, YOLO, data poisoning, empirical ML\\
+\textbf{Programming and Tools:} Python, Ollama, SLURM, C++\\
+\textbf{Scientific Computing:} MCMC, numerical integration, experimental design, statistical analysis
+
+\end{document}

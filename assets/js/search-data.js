@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "AI safety, interpretability, evaluations, and ML research work.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -395,51 +395,51 @@ ninja.data = [{
           section: "News",},{id: "news-launched-this-site-applying-to-phd-programs-for-fall-2027-and-open-to-swe-ml-roles-for-2026",
           title: 'Launched this site! Applying to PhD programs for Fall 2027 and open to...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-ai-for-discovery-in-the-sciences",
+          title: 'AI for Discovery in the Sciences',
+          description: "ML curriculum and tutorial notebooks for PhD students and industry professionals.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/ai-for-science/";
+            },},{id: "projects-subliminal-learning-experiments",
+          title: 'Subliminal Learning Experiments',
+          description: "Apart Research hackathon work on toy models of hidden bias transfer.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/apart-subliminal-learning/";
+            },},{id: "projects-weight-decomposition-for-interpretability",
+          title: 'Weight Decomposition for Interpretability',
+          description: "MARS work-trial experiments on decomposing learned weights into human-interpretable components.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/bilinear-decomposition/";
+            },},{id: "projects-fine-grained-llm-evaluations",
+          title: 'Fine-Grained LLM Evaluations',
+          description: "DILL Lab research on capability structures for understanding reasoning failures in language models.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/dill-evaluations/";
+            },},{id: "projects-galactic-dynamics-reu",
+          title: 'Galactic Dynamics REU',
+          description: "Computational astrophysics research on Antlia 2 and Milky Way outer-disc perturbations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/galactic-dynamics/";
+            },},{id: "projects-philosophy-of-physics",
+          title: 'Philosophy of Physics',
+          description: "Earlier research on relativity, quantum mechanics, and conceptual foundations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/philosophy-of-physics/";
+            },},{id: "projects-poisonperf",
+          title: 'PoisonPerf',
+          description: "Data poisoning attacks in performative prediction.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/poison-perf/";
+            },},{id: "projects-superposition-and-steering-work-trial",
+          title: 'Superposition and Steering Work Trial',
+          description: "MARS work-trial analysis of sparse feature encoding, interference, and activation geometry.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+              window.location.href = "/projects/superposition-work-trial/";
+            },},{id: "projects-tetsuwan-scientific",
+          title: 'Tetsuwan Scientific',
+          description: "ML engineering for LLM- and vision-based laboratory automation systems.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/tetsuwan-scientific/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
