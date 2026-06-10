@@ -2,11 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: AI safety, interpretability, evaluations, and ML research work.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->

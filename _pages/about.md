@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: M.S. Computer Science at <a href='https://www.usc.edu'>USC</a>. Machine learning, LLMs, and scientific ML. Looking for PhD and ML research/engineering opportunities.
+subtitle: M.S. Computer Science at <a href='https://www.usc.edu'>USC</a>. AI safety, interpretability, evaluations, and empirical ML research.
 
 profile:
   align: right
@@ -27,12 +27,12 @@ latest_posts:
   limit: 3
 ---
 
-Hi — I'm **Tetsuto**, an M.S. Computer Science student at the University of Southern California (expected May 2027). My interests sit at the intersection of **machine learning, large language models, and scientific computing** — I like building systems that translate messy real-world intent into structured, executable behavior, and I'm especially drawn to problems where ML meets the physical sciences.
+Hi, I'm **Tets**, a first-year M.S. Computer Science student at USC working toward research in **AI safety**, especially interpretability, evaluations, representation-level analysis, and adversarial robustness. I am drawn to problems where the goal is not only to make a model perform better, but to understand the structure behind its behavior, when it fails, and how to intervene.
 
-I'm currently applying to **PhD programs** starting Fall 2027, and I'm also actively looking for **research opportunities and ML engineering roles** — full-time or summer 2026 internships. If any of that sounds like a fit, I'd love to [get in touch](mailto:tetsnaga@usc.edu).
+Before starting my M.S. CS, I completed a B.S. in Physics/Computer Science, a B.A. in Philosophy and Physics, and a concurrent M.S. in Mechanical Engineering at USC. That nonlinear path still shapes how I work: physics and philosophy made me comfortable with opaque systems, while ML engineering taught me how to build, test, and diagnose them in practice.
 
-Before starting my M.S. CS, I completed an unusual course of study at USC: a B.S. in Physics/Computer Science, a B.A. in Philosophy and Physics, and a concurrent M.S. in Mechanical Engineering — all finished in May 2024. That breadth shapes how I approach research: I'm most at home on problems that reward moving fluidly between formal reasoning, experimental design, and engineering execution.
+I am currently a Student Researcher in USC's DILL Lab under Swabha Swayamdipta, working on fine-grained evaluations of reasoning in large language models. Recent work includes data poisoning in performative prediction, subliminal learning experiments from an Apart Research hackathon, mechanistic-interpretability work trials around decompositions and superposition, lab-automation systems at Tetsuwan Scientific, and ML curriculum for PhD students and industry professionals through USC's AI for Discovery in the Sciences workshop.
 
-Most recently, I was a **Visiting Member of the Technical Staff at Tetsuwan Scientific** in San Francisco, where I prototyped LLM- and vision-based systems for lab automation. Before that, I helped run a machine learning workshop for PhD students and professionals at USC's *AI for Discovery in the Sciences* program, built a generative diffusion model from scratch for pedagogy, and worked on astrophysical orbit modeling at the University of Hawaii.
+Longer term, I also want to connect technical safety work with public AI education. I think better non-technical understanding of what AI systems can and can't do is important for responsible use, democratic governance, and public discourse that is grounded rather than hype- or fear-driven.
 
-You can find more on my [CV](/cv/), my [projects](/projects/), and occasional writing on the [blog](/blog/).
+You can find more on my [CV](/cv/), my [projects](/projects/), and occasional writing on the [blog](/blog/). If any of this overlaps with what you are working on, I'd be happy to [get in touch](mailto:tetsnaga@usc.edu).
