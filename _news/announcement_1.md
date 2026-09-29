@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Launched this site! Applying to PhD programs for Fall 2027 and open to SWE / ML roles for 2026.
+Launched this site to share my AI safety and machine learning research.
