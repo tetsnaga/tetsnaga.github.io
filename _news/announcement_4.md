@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined USC's DILL Lab under Swabha Swayamdipta as a Student Researcher, working on fine-grained evaluations of reasoning in large language models.
+Joined USC's [DILL Lab](https://dill-lab.github.io) under [Swabha Swayamdipta](https://swabhs.com) as a Student Researcher, working on fine-grained evaluations of reasoning in large language models.

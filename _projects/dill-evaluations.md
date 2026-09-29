@@ -7,7 +7,7 @@ importance: 1
 category: ai-safety
 ---
 
-I am working with USC's DILL Lab on fine-grained evaluations for reasoning in large language models. The project asks how to move beyond aggregate benchmark scores toward capability structures that make model weaknesses easier to diagnose.
+I am working with USC's [DILL Lab](https://dill-lab.github.io) under [Swabha Swayamdipta](https://swabhs.com) on fine-grained evaluations for reasoning in large language models. The project asks how to move beyond aggregate benchmark scores toward capability structures that make model weaknesses easier to diagnose.
 
 My current work studies limitations of tree-shaped capability taxonomies such as EvalTree. Complex benchmark instances often exercise multiple capabilities at once, and those capabilities are not naturally forced into a single parent-child hierarchy. I have been exploring alternatives such as multi-capability annotations, axis-specific forests, and typed graph or graded-DAG representations that can express cross-cutting capabilities without duplicating the same concept in several branches.
 
