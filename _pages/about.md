@@ -33,6 +33,6 @@ I am currently a Student Researcher in USC's [DILL Lab](https://dill-lab.github.
 
 My broader hope is that AI development preserves human agency rather than quietly routing economic, cultural, or governmental feedback loops around human needs. I want to work on technical safety that makes dangerous behavior legible before deployment, and pair that with public AI education so non-technical people can reason clearly about the systems shaping their lives.
 
-For 2027, I am applying to AI safety fellowships and am open to research, machine learning, and software engineering roles.
+For 2027, I am applying to AI safety fellowships and am open to research roles.
 
-You can find more on my [CV](/cv/), my [projects](/projects/), and occasional writing on the [blog](/blog/). If any of this overlaps with what you are working on, I'd be happy to [get in touch](mailto:tetsnaga@usc.edu).
+You can find more on my [CV](/cv/) and [projects](/projects/). If any of this overlaps with what you are working on, I'd be happy to [get in touch](mailto:tetsnaga@usc.edu).
